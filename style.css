@@ -79,7 +79,7 @@ ul {
     grid-template-columns: 200px 200px 200px;
     justify-content: center;
     gap: 10px;
-
+    min-height: calc(100vh - 40px);
 }
 
 li {
@@ -137,14 +137,15 @@ footer {
         align-items: normal;
         flex-direction: column;
         position: fixed;
-        height: 100%;
-        background-color: black;
+        gap: 30px;
+        
+    
 
 
     }
 
     button,#button-map {
-        width: 120px;
+        width: 78px;
 
     }
 
@@ -157,7 +158,7 @@ footer {
         margin: 12px;
         grid-template-columns: 120px 120px;
         justify-content: flex-end;
-        gap: 35px;
+        gap: 10px;
 
     }
 
